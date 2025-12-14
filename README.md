@@ -1,134 +1,46 @@
-# Sweet Shop Management System
+# LOBHAS SWEETSHOP
 
-## Overview
-The Sweet Shop Management System is a full-stack application designed to manage a sweet shop's inventory, user authentication, and sales. It consists of a backend API built with Node.js and Express, and a frontend application developed using React. The system allows users to register, log in, view available sweets, and manage inventory.
-
-## Technologies Used
-- **Backend**: Node.js, Express, TypeScript, MongoDB
-- **Frontend**: React, TypeScript
-- **Testing**: Jest, Supertest
-- **Containerization**: Docker
+A modern, full-stack Sweet Shop Management System.
 
 ## Features
-- User registration and login with token-based authentication.
-- CRUD operations for managing sweets (add, update, delete).
-- Inventory management for purchasing and restocking sweets.
-- Search and filter functionality for sweets.
-- Admin panel for managing sweets and inventory.
+- **Premium UI**: Glassmorphism design with vibrant colors.
+- **User Authentication**: Secure Login and Registration.
+- **Dashboard**: Browse sweets with search functionality.
+- **Admin Panel**: Manage inventory (Add/Edit/Delete sweets).
+- **Responsive Design**: Works on all devices.
 
-## Project Structure
-```
-sweet-shop-management
-├── backend
-│   ├── src
-│   │   ├── index.ts
-│   │   ├── app.ts
-│   │   ├── config
-│   │   │   └── index.ts
-│   │   ├── controllers
-│   │   │   ├── auth.controller.ts
-│   │   │   ├── sweets.controller.ts
-│   │   │   └── inventory.controller.ts
-│   │   ├── services
-│   │   │   ├── auth.service.ts
-│   │   │   ├── sweets.service.ts
-│   │   │   └── inventory.service.ts
-│   │   ├── models
-│   │   │   ├── user.model.ts
-│   │   │   └── sweet.model.ts
-│   │   ├── routes
-│   │   │   ├── auth.routes.ts
-│   │   │   └── sweets.routes.ts
-│   │   ├── middleware
-│   │   │   ├── auth.middleware.ts
-│   │   │   └── error.middleware.ts
-│   │   ├── utils
-│   │   │   └── validators.ts
-│   │   └── tests
-│   │       ├── auth.test.ts
-│   │       ├── sweets.test.ts
-│   │       └── inventory.test.ts
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── .env.example
-├── frontend
-│   ├── public
-│   │   └── index.html
-│   ├── src
-│   │   ├── index.tsx
-│   │   ├── App.tsx
-│   │   ├── api
-│   │   │   └── api.ts
-│   │   ├── pages
-│   │   │   ├── Login.tsx
-│   │   │   ├── Register.tsx
-│   │   │   ├── Dashboard.tsx
-│   │   │   └── AdminPanel.tsx
-│   │   ├── components
-│   │   │   ├── SweetCard.tsx
-│   │   │   ├── SweetForm.tsx
-│   │   │   └── SearchBar.tsx
-│   │   ├── context
-│   │   │   └── AuthContext.tsx
-│   │   ├── hooks
-│   │   │   └── useAuth.ts
-│   │   └── tests
-│   │       └── App.test.tsx
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── .env.example
-├── scripts
-│   ├── seed.ts
-│   └── setup.sh
-├── docker
-│   ├── Dockerfile.backend
-│   ├── Dockerfile.frontend
-│   └── docker-compose.yml
-├── .gitignore
-├── README.md
-└── LICENSE
-```
+## Tech Stack
+- **Frontend**: React, TypeScript, Modern CSS.
+- **Backend**: Node.js, Express, MongoDB.
 
-## Setup Instructions
+## Getting Started
 
-### Backend
-1. Navigate to the `backend` directory.
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Create a `.env` file based on the `.env.example` file and configure your MongoDB connection string.
-4. Start the backend server:
-   ```
-   npm run dev
-   ```
+### Prerequisites
+- Node.js installed.
+- MongoDB running locally or a cloud URI.
 
-### Frontend
-1. Navigate to the `frontend` directory.
-2. Install dependencies:
-   ```
-   npm install
-   ```
-3. Start the frontend application:
-   ```
-   npm start
-   ```
+### Installation
 
-## Testing
-To run the tests for the backend, navigate to the `backend` directory and run:
-```
-npm test
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Lobhas-09/Lobhas-Sweet-shop.git
+    cd Lobhas-Sweet-shop
+    ```
 
-To run the tests for the frontend, navigate to the `frontend` directory and run:
-```
-npm test
-```
+2.  **Backend Setup:**
+    ```bash
+    cd backend
+    npm install
+    # Create .env file with MONGODB_URI and JWT_SECRET
+    npm run dev
+    ```
 
-## My AI Usage
-- I used ChatGPT to brainstorm the API endpoint structures and to generate boilerplate code for the backend controllers and services.
-- I utilized GitHub Copilot to assist in writing unit tests for the backend services and to help with the frontend components.
-- The AI tools significantly sped up my development process by providing suggestions and reducing the amount of boilerplate code I had to write manually.
+3.  **Frontend Setup:**
+    ```bash
+    cd frontend
+    npm install
+    npm start
+    ```
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+MIT
