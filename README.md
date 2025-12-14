@@ -5,6 +5,7 @@ A modern, full-stack Sweet Shop Management System.
 ## Screenshots
 ![Dashboard Preview](assets/dashboard-preview.png)
 ![Login Preview](assets/login-preview.png)
+![Admin Panel Preview](assets/admin-preview.png)
 
 ## Features
 - **Premium UI**: Glassmorphism design with vibrant colors.
