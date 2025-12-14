@@ -1,11 +1,19 @@
-# LOBHAS SWEETSHOP
+![LOBHAS Hero](assets/project-hero-banner.png)
 
 A modern, full-stack Sweet Shop Management System.
 
-## Screenshots
-![Dashboard Preview](assets/dashboard-preview.png)
-![Login Preview](assets/login-preview.png)
-![Admin Panel Preview](assets/admin-preview.png)
+## Gallery
+### Application
+![Dashboard](assets/screenshot-dashboard-hero.png)
+![Available Sweets](assets/screenshot-sweets-grid.png)
+
+### Authentication
+| | |
+|:---:|:---:|
+| ![Login](assets/screenshot-login.png) | ![Register](assets/screenshot-register.png) |
+
+### Administration
+![Admin Panel](assets/screenshot-admin.png)
 
 ## Features
 - **Premium UI**: Glassmorphism design with vibrant colors.
